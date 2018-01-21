@@ -2,24 +2,39 @@
 <html>
 	<head>
 		<title>Calculator</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-			<input id="display" type="text">
-			<button id="btnClear">C</button>
-			<button id="btn1" class="btnShow">1</button>
-			<button id="btn2" class="btnShow">2</button>
-			<button id="btn3" class="btnShow">3</button>
-			<button id="btn4" class="btnShow">4</button>
-			<button id="btn5" class="btnShow">5</button>
-			<button id="btn6" class="btnShow">6</button>
-			<button id="btn7" class="btnShow">7</button>
-			<button id="btn8" class="btnShow">8</button>
-			<button id="btn9" class="btnShow">9</button>
-			<button id="btnAdd" class="btnShow operator">+</button>
-			<button id="btnSubtract" class="btnShow operator">-</button>
-			<button id="btnMultiply" class="btnShow operator">*</button>
-			<button id="btnDivide" class="btnShow operator">/</button>
-			<button id="btnEquals" class="btnShow">=</button>
+		<div id="container">
+			<div class="row">
+				<input id="display" type="text">
+			</div>
+			<div class="row">
+				<button id="btnClear">C</button>
+				<button id="btnDivide" class="btnShow operator">/</button>
+			</div>
+			<div class="row">
+				<button id="btn7" class="btnShow">7</button>
+				<button id="btn8" class="btnShow">8</button>
+				<button id="btn9" class="btnShow">9</button>
+				<button id="btnMultiply" class="btnShow operator">*</button>
+			</div>
+			<div class="row">
+				<button id="btn4" class="btnShow">4</button>
+				<button id="btn5" class="btnShow">5</button>
+				<button id="btn6" class="btnShow">6</button>
+				<button id="btnSubtract" class="btnShow operator">-</button>
+			</div>
+			<div class="row">
+				<button id="btn1" class="btnShow">1</button>
+				<button id="btn2" class="btnShow">2</button>
+				<button id="btn3" class="btnShow">3</button>
+				<button id="btnAdd" class="btnShow operator">+</button>
+			</div>
+			<div class="row">
+				<button id="btnEquals" class="btnShow">=</button>
+			</div>
+		</div>
 
 			<script src="script.js"></script>
 	</body>

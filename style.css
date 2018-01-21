@@ -1,0 +1,21 @@
+#container {
+	display: table;
+}
+
+.row {
+	display: table-row;
+}
+
+#display {
+	width: 137px;
+}
+
+.btnShow {
+	width: 35px;
+	height: 35px;
+}
+
+#btnClear {
+	width: 35px;
+	height: 35px;
+}
